@@ -56,7 +56,7 @@ const Today = () => {
 
       <Text>
         Traté de desplegar esta web con subdominios multi-idioma pero fracasé.
-        Usaré el sub-path routing. Ya son las 12:42.
+        Usaré el sub-path routing. Ya son las 12:57, iré a almorzar.
       </Text>
     </Box>
   );

@@ -7,6 +7,9 @@ const nextConfig = {
     localeDetection: false,
   },
   trailingSlash: true,
+  images: {
+    domains: ["images.unsplash.com"],
+  },
 };
 
 module.exports = nextConfig;
