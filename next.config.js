@@ -1,22 +1,12 @@
-const domain = "randy.ml";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
     locales: ["es", "en"],
-    defaultLocale: "en",
-    localeDetection: true,
-    domains: [
-      {
-        domain: "en." + domain,
-        defaultLocale: "en",
-      },
-      {
-        domain: domain,
-        defaultLocale: "es",
-      },
-    ],
+    defaultLocale: "es",
+    localeDetection: false,
   },
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;

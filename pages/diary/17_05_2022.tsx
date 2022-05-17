@@ -51,12 +51,13 @@ const Today = () => {
         porque me demoré), googleé unas alternativas de API o servicios para
         agendar usuarios debido una duda que mi hermano tuvo y me pidió (me
         refirió Calendly). Esto último me hizo pensar en Wordpress y considerar
-        volver a tocarlo. Me descargué WPLocal.
+        volver a tocarlo. Me descargué WPLocal. Son las 11:56.
       </Text>
 
-      <Text>11:56 (pausa)</Text>
-
-      <hr />
+      <Text>
+        Traté de desplegar esta web con subdominios multi-idioma pero fracasé.
+        Usaré el sub-path routing. Ya son las 12:42.
+      </Text>
     </Box>
   );
 };
